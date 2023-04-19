@@ -5,8 +5,8 @@ const variables = css`
     
     --dark-navy: #020c1b;
     --navy: #0a192f;
-    --background: radial-gradient(circle at -8.9% 51.2%, rgb(255, 124, 0) 0%, rgb(255, 124, 0) 15.9%, rgb(255, 163, 77) 15.9%, rgb(255, 163, 77) 24.4%, rgb(19, 30, 37) 24.5%, rgb(19, 30, 37) 66%);
-    --dark-background: rgb(19, 30, 37, 0.85);
+    --background: 081E26;
+    --dark-background: 081E26;
     --light-navy: #112240;
     --lightest-navy: #233554;
     --navy-shadow: rgba(2, 12, 27, 0.7);

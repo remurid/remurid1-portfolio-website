@@ -67,7 +67,7 @@ const Hero = () => {
   useEffect(() => {
     if (isMounted) {
       const typed = new Typed(el.current, {
-        strings: ['<i>First</i> sentence.', '&amp; a second sentence.'],
+        strings: ['I build things for the web','<i>First</i> sentence.', '&amp; a second sentence.'],
         typeSpeed: 50,
         startDelay:2500,
         loop:true,
@@ -86,7 +86,7 @@ const Hero = () => {
   
   const one = <h1>Hi, my name is</h1>;
   const two = <h2 className="big-heading">Remedan Ridwan.</h2>;
-  const three = <h3 className="big-heading">I build things for the web. <span ref={el} /></h3>;
+  const three = <h3 className="big-heading"><span ref={el} /></h3>;
   
   const four = (
     <>
